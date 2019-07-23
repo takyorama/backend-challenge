@@ -25,7 +25,7 @@ Ao incluir uma pessoa as seguintes validações devem ser feitas **no backend**:
  - Nome: obrigatório e com no mínimo 2 caracteres
  - E-mail: obrigatório, ser um e-mail válido e único na base de dados
  - DDD: opcional, numérico com no máximo 2 dígitos
- - Telefone: opcional, numérico com no mínimo 8 e no máximo 9 dígitos
+ - Telefone: opcional, numérico com 9 dígitos
 
 
 Antes de remover uma pessoa é preciso mostrar uma confirmação da ação.
