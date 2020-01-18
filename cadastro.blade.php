@@ -1,18 +1,18 @@
 @extends('contatos')
 
 @section('conteudo')
+ <form action="contatos/lista">
   <h2>Cadastro de contato</h2>
-  <div id="" class="">
-    <label for="">Nome: <input type="" name="" class=""/></label>
+  <div class="form-group">
+    <label for="nome">Nome:</label><input type="text" name="npme" class="form-control"/>
   </div>
   
-  <div id="" class="">
-    <label for="">EMAIL: <input type="" name="" class=""/></label>
+  <div class="form-group">
+    <label for="email">EMAIL:</label><input type="text" name="email" class="form-control"/>
   </div>
-  <div id="" class="">
-   Telefone:
-   <input="" type="" name="" class=""/>
-   <input="" type="" name="" class=""/>
+  <div class="form-group">
+   <label for="telefone">Telefone:</label><input type="text" name="telefone" class="form-control"/>
   </div>
-  <button type="submit">Cadastrar</button>
+  <button type="submit" class="btn btn-success">Cadastrar</button>
+ </form>
 @endsection
