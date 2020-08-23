@@ -1,52 +1,78 @@
-Seja bem vindo! Obrigado pelo interesse em participar do processo seletivo da Nofaro.
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-Leia atentamente as instruções abaixo e não hesite em entrar em contato com a gente.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-#### Objetivo
+## About Laravel
 
-Criar uma aplicação que contenha​:
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- Lista de pessoas
-- Inclusão de uma pessoa
-- Remoção de uma pessoa
-- Filtro por nome e por e-mail
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-#### Descrição
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Uma pessoa terá as seguintes informações cadastradas:
- - Nome
- - E-mail
- - DDD
- - Telefone
+## Learning Laravel
 
-A lista de pessoas deve mostrar todas as informações cadastradas e ser ordenada por nome.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-Ao incluir uma pessoa as seguintes validações devem ser feitas **no backend**:
- - Nome: obrigatório e com no mínimo 2 caracteres
- - E-mail: obrigatório, ser um e-mail válido e único na base de dados
- - DDD: opcional, numérico com no máximo 2 dígitos
- - Telefone: opcional, numérico com 9 dígitos
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Laravel Sponsors
 
-Antes de remover uma pessoa é preciso mostrar uma confirmação da ação.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-O filtro por nome ou e-mail deve ser feito **no backend**. O nome poderá ser buscado por strings parciais, já o e-mail deve ser por busca exata. Caso a busca seja feita por nome e por e-mail deve ser retornada a lista de pessoas que passem em uma ou (não exclusivo) em outra condição.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+- [Appoly](https://www.appoly.co.uk)
+- [OP.GG](https://op.gg)
 
+## Contributing
 
-#### Regras
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
- - Utilizar Laravel para o desenvolvimento do backend
- - Utilizar MySQL como base de dados
- - Recomenda-se o uso de Vue.js para o desenvolvimento do frontend
- - O uso de libs é livre
- - Entregar o resultado através de um sistema de controle de versão (Github, Bitbucket, ...)
- - Ter instruções de como instalar a aplicação
+## Code of Conduct
 
-#### O que será avaliado
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
- - Organização do código
- - Simplicidade da solução apresentada
- - Cumprimento dos requisitos apresentados na descrição
+## Security Vulnerabilities
 
-**Bom teste!**
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
